@@ -4,9 +4,9 @@
   <Audio>
   </Audio>
   <Display>
-    <file path="Assets\Screens\cans.png" duration="4"/>
-    <file path="Assets\Screens\Oyster_special.png" duration="4"/>
-    <file path="Assets\Screens\draft.png" duration="4"/>
-    <file type="webpage" path="http://grabosky.azurewebsites.net/CarniDigiSign" duration="10"/>
+    <file path="Assets\Screens\cans.png" duration="2"/>
+    <file path="Assets\Screens\Oyster_special.png" duration="2"/>
+    <file path="Assets\Screens\draft.png" duration="2"/>
+    <file type="webpage" path="http://grabosky.azurewebsites.net/CarniDigiSign" duration="5"/>
   </Display>
 </DigitalSignageConfig>
