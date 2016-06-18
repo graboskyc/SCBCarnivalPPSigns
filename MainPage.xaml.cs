@@ -135,6 +135,7 @@ namespace DigitalSignageUAP
             slideShowAutoStart.Interval = slideShowAutoStartTimerSpan;
             slideShowAutoStart.Tick += slideShowAutoStart_Tick;
             slideShowAutoStart.Start(); // any mouse/keyboard event will restart the timer
+
         }
         
         void VisionVideoAcceptMouseEventTimer_Tick(object sender, object e)

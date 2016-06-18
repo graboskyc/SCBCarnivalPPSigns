@@ -140,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\config.xml" />
+    <Content Include="Assets\Edge.png" />
     <Content Include="Assets\Screens\cans.png" />
     <Content Include="Assets\Screens\draft.png" />
     <Content Include="Assets\Screens\Oyster_special.png" />

@@ -28,7 +28,7 @@
     mc:Ignorable="d" PointerMoved="Page_PointerMoved" KeyDown="Page_KeyDown" Width="640" Height="480">
 
     <Page.Resources>
-        <x:String x:Key="AppName">Digital Signage App on Windows 10 IoT Core</x:String>
+        <x:String x:Key="AppName">Pete's Place Digital Signage</x:String>
     </Page.Resources>
 
     <Grid Background="#FF222222" >
