@@ -92,6 +92,11 @@ namespace DigitalSignageUAP
                 localSettings.Values["hideSpecials"] = false;
             }
 
+            if (localSettings.Values["hideWeb"] == null)
+            {
+                localSettings.Values["hideWeb"] = false;
+            }
+
 
             // get the current config path from local settings
             currentConfigFilePath = (string)localSettings.Values[configValueName];
