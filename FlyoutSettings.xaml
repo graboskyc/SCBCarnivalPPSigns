@@ -49,6 +49,8 @@
             <TextBox Name="textBox" BorderThickness="2" BorderBrush="#333333" FontSize="20" Margin="0,20,0,0" Height="136" TextWrapping="Wrap" Text="{Binding ElementName=SIP_TextBox, Path=OutputString, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
             <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Kill Specials?" Foreground="White"/>
             <CheckBox Name="spec" Click="spec_Click" />
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Disable Web?" Foreground="White"/>
+            <CheckBox Name="web" Click="web_Click"/>
         </StackPanel>
 
         <!-- Define more Content Sections below as necessary -->

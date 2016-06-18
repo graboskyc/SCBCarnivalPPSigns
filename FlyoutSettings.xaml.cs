@@ -130,5 +130,17 @@ namespace DigitalSignageUAP
                 localSettings.Values["hideSpecials"] = false;
             }
         }
+
+        private void web_Click(object sender, RoutedEventArgs e)
+        {
+            if ((bool)web.IsChecked)
+            {
+                localSettings.Values["hideWeb"] = true;
+            }
+            else
+            {
+                localSettings.Values["hideWeb"] = false;
+            }
+        }
     }
 }

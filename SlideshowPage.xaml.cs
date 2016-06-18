@@ -214,6 +214,11 @@ namespace DigitalSignageUAP
 
             if (currentDO.uri != null) // we're dealing with a WEB Page, show the WebView instance
             {
+                bool hw = (bool)localSettings.Values["hideWeb"];
+                if (hw)
+                {
+                    currentDO.duration = 0;
+                }
                 videoInstance.Stop();
                 videoInstance.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 imageInstance.Visibility = Windows.UI.Xaml.Visibility.Collapsed;

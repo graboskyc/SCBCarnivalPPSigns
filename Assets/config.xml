@@ -4,18 +4,9 @@
   <Audio>
   </Audio>
   <Display>
-    <!--Video does not require duration attribute. It will be played back in a loop end to end-->
-    <!--<file path="Assets\Rot02.wmv"/>-->
-    <!--image and webpage do require duration attribute so we know how long to show them-->
-
     <file path="Assets\Screens\cans.png" duration="4"/>
     <file path="Assets\Screens\Oyster_special.png" duration="4"/>
     <file path="Assets\Screens\draft.png" duration="4"/>
-    <file type="webpage" path="http://scbcarnival.com/5050" duration="10"/>
-    
-    <!--Webpage requires a special attribute type and its value to be webpage-->
-
-    <!--webpage URLs have to be XML escaped, e.g. below URL, & is replaced to &amp;. Not including the dot.Otherwise it will be considered as malformatted XML-->
-
+    <file type="webpage" path="http://grabosky.azurewebsites.net/CarniDigiSign" duration="10"/>
   </Display>
 </DigitalSignageConfig>
