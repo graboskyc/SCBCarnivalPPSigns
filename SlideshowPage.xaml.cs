@@ -233,10 +233,8 @@ namespace DigitalSignageUAP
                     bool hs = (bool)localSettings.Values["hideSpecials"];
                     if ((currentDO.file.Name.ToLower().Contains("special")) && (hs))
                     {
-                        DisplayNext();
+                        currentDO.duration = 0;
                     }
-                    else
-                    {
                         videoInstance.Stop();
                         videoInstance.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                         imageInstance.Visibility = Windows.UI.Xaml.Visibility.Visible;
@@ -246,7 +244,6 @@ namespace DigitalSignageUAP
                         DisplayImageWEBTimer.Interval = new TimeSpan(0, 0, currentDO.duration);
                         DisplayImageWEBTimer.Start();
                         PlayAudio();
-                    }
                 }
                 else // video, we'll pause audio playback
                 {
