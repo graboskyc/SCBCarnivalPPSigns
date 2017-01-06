@@ -1,0 +1,20 @@
+{
+"fifty":{"time":"8PM", "state":"On Sale"},
+"beer":[{"name":"Miller Lite", "ibu":"10","srm":"05","price":"4.00", "size":"14 oz draft"},
+{"name":"Yuengling", "ibu":"20","srm":"20","price":"4.00", "size":"14 oz draft"},
+{"name":"Guinness", "ibu":"45","srm":"40","price":"5.00", "size":"14 oz draft"},
+{"name":"Corona", "ibu":"19","srm":"05","price":"4.00", "size":"12 oz can"},
+{"name":"Blue Moon", "ibu":"9","srm":"01","price":"4.00", "size":"12 oz can"},
+{"name":"Summer Shandy", "ibu":"14","srm":"05","price":"4.00", "size":"12 oz can"}],
+"food":[{"id":1,"name":"Clams (6)","price":"3.50","itemType":"food"},
+{"id":2,"name":"Crab Cake","price":"6.00","itemType":"food"},
+{"id":3,"name":"Fried Calamari","price":"5.50","itemType":"food"},
+{"id":4,"name":"Fried Pickles","price":"4.50","itemType":"food"},
+{"id":5,"name":"Fries","price":"3.00","itemType":"food"},
+{"id":6,"name":"Chili Dog","price":"2.50","itemType":"food"},
+{"id":7,"name":"Kraut Dog","price":"2.00","itemType":"food"},
+{"id":8,"name":"Moz Sticks","price":"4.00","itemType":"food"},
+{"id":9,"name":"Onion Rings","price":"3.50","itemType":"food"},
+{"id":10,"name":"Poppers","price":"4.00","itemType":"food"},
+{"id":11,"name":"Wings","price":"9.00","itemType":"food"}]
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>SCB Carnival</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <style>
+            html, body {
+                background-color: #333;
+            }
+            body {
+                color: #fff;
+            }
+            .txt { 
+                font-size:65px;
+                font-weight:bold;
+                text-align:center;
+                padding-bottom:30px;
+            }
+            
+            .txthead {
+                text-decoration:underline;
+                font-size:72px;
+                text-shadow: 0 1px 3px rgba(0,0,0,.5);
+            }
+            
+            .pricedesc {
+                font-size:20px;
+                font-style:italic;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container-fluid" id="cntr">
+            
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-5 txt txthead">Item</div>
+                <div class="col-md-3 txt txthead">Price</div>
+                <div class="col-md-2"></div>
+            </div>
+            
+
+        </div>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            function togglePage(pageToHide,pageToShow) {
+                $("."+pageToHide).hide();
+                $("."+pageToShow).show();
+                setTimeout(function(){ togglePage(pageToShow,pageToHide) }, 4500);
+            }
+        $(function() {
+            $.get( "load.php", function( data ) {
+                var obj = JSON.parse(data);
+                $.each(obj.food, function( index, value ) {
+                    var page = "page1"
+                    if (index > 5) { page = "page2"; }
+                    var d = '<div class="row '+page+'"><div class="col-md-2"></div>';
+                    d = d + '<div class="col-md-5 txt">'+value.name+'</div>';
+                    d = d + '<div class="col-md-3 txt">$'+value.price+'</div>';
+                    d = d + '<div class="col-md-2"></div></div>';
+                    $('#cntr').append(d);
+                });
+                togglePage("page2","page1");
+            });
+            
+        });
+        </script>
+    </body>
+    
+</html>

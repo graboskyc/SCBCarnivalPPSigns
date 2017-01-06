@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SCB Carnival</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+            <textarea id="txt_json" style="width:400px;height:300px;color:#000000;">
+{
+"fifty":{"time":"8PM", "state":"On Sale"},
+"beer":[{"name":"Miller Lite", "ibu":"10","srm":"05","price":"4.00", "size":"14 oz draft"},
+{"name":"Yuengling", "ibu":"20","srm":"20","price":"4.00", "size":"14 oz draft"},
+{"name":"Guinness", "ibu":"45","srm":"40","price":"5.00", "size":"14 oz draft"},
+{"name":"Corona", "ibu":"19","srm":"05","price":"4.00", "size":"12 oz can"},
+{"name":"Blue Moon", "ibu":"9","srm":"01","price":"4.00", "size":"12 oz can"},
+{"name":"Summer Shandy", "ibu":"14","srm":"05","price":"4.00", "size":"12 oz can"}],
+"food":[{"id":1,"name":"Clams (6)","price":"3.50","itemType":"food"},
+{"id":2,"name":"Crab Cake","price":"6.00","itemType":"food"},
+{"id":3,"name":"Fried Calamari","price":"5.50","itemType":"food"},
+{"id":4,"name":"Fried Pickles","price":"4.50","itemType":"food"},
+{"id":5,"name":"Fries","price":"3.00","itemType":"food"},
+{"id":6,"name":"Chili Dog","price":"2.50","itemType":"food"},
+{"id":7,"name":"Kraut Dog","price":"2.00","itemType":"food"},
+{"id":8,"name":"Moz Sticks","price":"4.00","itemType":"food"},
+{"id":9,"name":"Onion Rings","price":"3.50","itemType":"food"},
+{"id":10,"name":"Poppers","price":"4.00","itemType":"food"},
+{"id":11,"name":"Wings","price":"9.00","itemType":"food"}]
+}
+            </textarea>
+            <br>
+            <a id="btn_submit" class="btn btn-success" href="javascript:postit()">Submit</a>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      function postit() {
+        var data = $('#txt_json').val();
+        $.post("save.php", {json:data});
+        alert("Saved");
+      }
+    </script>
+  </body>
+</html>

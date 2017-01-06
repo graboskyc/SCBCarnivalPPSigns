@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DigitalSignageConfig>
+  <!--audio does not require duration attribute. It will be played back in a loop end to end-->
+  <Audio>
+  </Audio>
+  <Display>
+    <file type="webpage" path="http://scbcarnival.com/5050" duration="10"/>
+	<file path="Assets\Screens\cans.png" duration="4"/>
+    <file path="Assets\Screens\Oyster_special.png" duration="4"/>
+    <file path="Assets\Screens\draft.png" duration="4"/>
+    </Display>
+</DigitalSignageConfig>
