@@ -41,7 +41,7 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Grid Grid.Row="0" Grid.Column="1" >
-            <TextBlock x:Name="pageTitle" Text="Digital Signage on Windows 10 IoT Core" IsHitTestVisible="false" TextWrapping="NoWrap" Style="{StaticResource HeaderTextBlockStyle}" VerticalAlignment="Center" FontFamily="Segoe UI Light" FontSize="32" Foreground="White"/>
+            <TextBlock x:Name="pageTitle" Text="Pete's Place Digital Signage" IsHitTestVisible="false" TextWrapping="NoWrap" Style="{StaticResource HeaderTextBlockStyle}" VerticalAlignment="Center" FontFamily="Segoe UI Light" FontSize="32" Foreground="White"/>
         </Grid>
         <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" >
             <Grid x:Name="visionVideoGrid" Background="#FF2D2D2D" Width="350" Height="350" VerticalAlignment="Top" HorizontalAlignment="Left" Tapped="SlideshowGrid_Tapped">

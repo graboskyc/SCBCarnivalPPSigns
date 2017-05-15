@@ -4,10 +4,8 @@
   <Audio>
   </Audio>
   <Display>
-    <file type="webpage" path="http://grabosky.azurewebsites.net/CarniDigiSign/5050.html" duration="15"/>
-    <file path="Assets\Screens\cans.png" duration="5"/>
-    <file path="Assets\Screens\Oyster_special.png" duration="8"/>
-    <file path="Assets\Screens\draft.png" duration="5"/>
-    <file type="webpage" path="http://grabosky.azurewebsites.net/CarniDigiSign/beer.html" duration="15"/>
+    <file type="webpage" path="http://scbcarnival.com/5050" duration="20"/>
+    <file path="Assets\Screens\Oyster_special.png" duration="15"/>
+    <file type="webpage" path="https://business.untappd.com/boards/22022" duration="65"/>
   </Display>
 </DigitalSignageConfig>

@@ -1,4 +1,4 @@
-MainPackage=C:\Users\Chris\Documents\GitHub\SCBCarnivalPPSigns\bin\ARM\Release\DigitalSignageUAP_1.0.14.0_ARM.appx
-SymbolPackage=C:\Users\Chris\Documents\GitHub\SCBCarnivalPPSigns\AppPackages\DigitalSignageUAP_1.0.14.0_Test\DigitalSignageUAP_1.0.14.0_ARM.appxsym
-ResourcePack=C:\Users\Chris\Documents\GitHub\SCBCarnivalPPSigns\bin\ARM\Release\DigitalSignageUAP_1.0.14.0_scale-150.appx
-ResourcePack=C:\Users\Chris\Documents\GitHub\SCBCarnivalPPSigns\bin\ARM\Release\DigitalSignageUAP_1.0.14.0_scale-200.appx
+MainPackage=C:\Users\chris\Documents\GitHub\SCBCarnivalPPSigns\IOT\bin\ARM\Release\CarniPPDigiSign_1.0.17.0_ARM.appx
+SymbolPackage=C:\Users\chris\Documents\GitHub\SCBCarnivalPPSigns\IOT\AppPackages\CarniPPDigiSign_1.0.17.0_Test\CarniPPDigiSign_1.0.17.0_ARM.appxsym
+ResourcePack=C:\Users\chris\Documents\GitHub\SCBCarnivalPPSigns\IOT\bin\ARM\Release\CarniPPDigiSign_1.0.17.0_scale-150.appx
+ResourcePack=C:\Users\chris\Documents\GitHub\SCBCarnivalPPSigns\IOT\bin\ARM\Release\CarniPPDigiSign_1.0.17.0_scale-200.appx
