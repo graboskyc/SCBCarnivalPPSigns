@@ -35,3 +35,5 @@ Performance wise, especially for websites, I have noticed that it takes a few ro
 The way the app works is the slide show will automatically start. You can also start immediately by pressing the big button. 
 
 The settings menu also triggers the option to hide any asset containing `_specials` which can be useful if a special runs out mid-night. It can also disable all web page assets if there is no internet connection. 
+
+![screenshot 1](Screenshots/MainPage.jpg)
