@@ -1,5 +1,5 @@
 # SCBCarnivalPPSigns Background
-From Microsoft Win10 IOT Digital Signage example, implementation for concession at carnival
+From [Microsoft Win10 IOT Digital Signage example](https://github.com/ms-iot/samples/tree/develop/DigitalSign), implementation for concession at carnival
 
 This requires the current build of [Windows 10 IOT](https://developer.microsoft.com/en-us/windows/iot/getstarted) as of May 2017 which is 15063. 
 
