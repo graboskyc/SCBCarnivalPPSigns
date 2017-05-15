@@ -26,3 +26,12 @@ Additionally, you can right click on the solution and go to Store, Create App Pa
 The APPX package can be deployed via the webpage (http://IOTHOST:8080) and upload the APPXBundle package and Dependencies.
 
 After deployed, you need to set the app to be default for startup.
+
+# Use
+Once deployed and set as the default app, whenever power is applied to the IOT device, the sign will run.
+
+Performance wise, especially for websites, I have noticed that it takes a few rotations for the system to "warm up" and cache assets. After this, the performance gets better.
+
+The way the app works is the slide show will automatically start. You can also start immediately by pressing the big button. 
+
+The settings menu also triggers the option to hide any asset containing `_specials` which can be useful if a special runs out mid-night. It can also disable all web page assets if there is no internet connection. 
