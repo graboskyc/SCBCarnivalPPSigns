@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DigitalSignageUAP")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("CarniPPDigiSign")]
+[assembly: AssemblyDescription("From Microsoft Win10 IOT Digital Signage example, implementation for concession at carnival")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Chris Grabosky")]
 [assembly: AssemblyProduct("DigitalSignageUAP")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
