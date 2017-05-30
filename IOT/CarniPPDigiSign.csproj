@@ -146,8 +146,10 @@
     <Content Include="Assets\Screens\cans.png" />
     <Content Include="Assets\Screens\draft.png" />
     <Content Include="Assets\Screens\food.png" />
+    <Content Include="Assets\Screens\logo.png" />
     <Content Include="Assets\Screens\Oyster_special.png" />
     <Content Include="Assets\Screens\untappd.png" />
+    <Content Include="Assets\Screens\wine.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-100.png" />
