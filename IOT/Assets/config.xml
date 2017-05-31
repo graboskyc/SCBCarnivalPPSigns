@@ -7,10 +7,10 @@
     <file path="Assets\Screens\logo.png" duration="15"/>
     <file path="Assets\Screens\food.png" duration="25"/>
     <file path="Assets\Screens\wine.png" duration="15"/>
-    <file type="webpage" path="http://scbcarnival.com/5050" duration="20"/>
+    <!--<file type="webpage" path="http://scbcarnival.com/5050" duration="20"/>-->
     <file path="Assets\Screens\Oyster_special.png" duration="15"/>
     <file path="Assets\Screens\untappd.png" duration="15"/>
-    <file type="webpage" path="https://business.untappd.com/boards/22022" duration="65"/>
+    <file type="webpage" path="https://business.untappd.com/boards/22022" duration="89"/>
     <file path="Assets\Screens\cans.png" duration="20"/>
     <file path="Assets\Screens\draft.png" duration="20"/>
   </Display>
