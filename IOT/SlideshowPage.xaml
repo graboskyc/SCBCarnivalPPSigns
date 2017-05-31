@@ -27,7 +27,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="#FF222222" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+    <Grid Background="#FF000000" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Image x:Name="imageInstance" Visibility="Collapsed" />
         <MediaElement x:Name="audioInstance" Visibility="Collapsed" />
         <MediaElement x:Name="videoInstance" Visibility="Collapsed" />
