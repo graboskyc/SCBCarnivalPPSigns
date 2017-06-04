@@ -26,10 +26,10 @@
                 color: #fff;
             }
             .txt { 
-                font-size:65px;
+                font-size:55px;
                 font-weight:bold;
                 text-align:center;
-                padding-bottom:30px;
+                padding-bottom:15px;
             }
             
             .txthead {
@@ -75,7 +75,7 @@
                 var obj = JSON.parse(data);
                 $.each(obj.food, function( index, value ) {
                     var page = "page1"
-                    if (index > 5) { page = "page2"; }
+                    if (index > 6) { page = "page2"; }
                     var d = '<div class="row '+page+'"><div class="col-md-2"></div>';
                     d = d + '<div class="col-md-5 txt">'+value.name+'</div>';
                     d = d + '<div class="col-md-3 txt">$'+value.price+'</div>';
