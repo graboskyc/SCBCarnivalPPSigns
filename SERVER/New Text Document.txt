@@ -1,1 +1,0 @@
-https://api.untappd.com/v4/venue/checkins/4701?client_secret=&client_id=

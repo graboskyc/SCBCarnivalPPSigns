@@ -71,7 +71,7 @@ $checkins = $j->response->checkins->items;
         <div class="container-fluid" id="cntr">
             
             <div class="row">
-                <div class="col-md-6 txt txthead">User</div>
+                <div class="col-md-6 txt txthead">Untappd User</div>
                 <div class="col-md-5 txt txthead">Beer</div>
             </div>
             
