@@ -4,7 +4,8 @@
   <Audio>
   </Audio>
   <Display>
-    <file path="Assets\Screens\logo.png" duration="15"/>
+    <file path="Assets\Screens\logo.png" duration="10"/>
+    <file type="webpage" path="http://grabosky.azurewebsites.net/CarniDigiSign/untappdcheckins.php" duration="20"/>
     <file path="Assets\Screens\food.png" duration="25"/>
     <file path="Assets\Screens\wine.png" duration="15"/>
     <file type="webpage" path="http://grabosky.azurewebsites.net/CarniDigiSign/5050.html" duration="20"/>
