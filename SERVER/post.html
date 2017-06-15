@@ -8,6 +8,13 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
 
     <title>SCB Carnival</title>
 
@@ -31,34 +38,6 @@
       <div class="site-wrapper-inner">
 
             <textarea id="txt_json" style="width:60%;height:75%;color:#000000;">
-{
-"fifty":{"time":"8PM 50/50", "state":"On Sale"},
-"beer":[
-{"name":"Blue Moon", "ibu":"9","srm":"01","price":"4.00", "size":"12 oz can"},
-{"name":"Corona", "ibu":"19","srm":"05","price":"4.00", "size":"12 oz can"},
-{"name":"Miller Lite", "ibu":"10","srm":"05","price":"4.00", "size":"14 oz draft"},
-{"name":"Summer Shandy", "ibu":"14","srm":"05","price":"4.00", "size":"12 oz can"},
-{"name":"Yuengling", "ibu":"20","srm":"20","price":"4.00", "size":"14 oz draft"},
-{"name":"Twisted Tea", "ibu":"0","srm":"na","price":"4.00", "size":"12 oz can"},
-{"name":"⭐Sierra Nevada", "ibu":"38","srm":"05","price":"5.00", "size":"14 oz draft"}
-],
-"food":[
-	{"id":1,"name":"Clams (6)","price":"3.50","itemType":"food", "years":[2016,2017]},
-	{"id":2,"name":"Crab Cake","price":"6.00","itemType":"food", "years":[2016,2017]},
-	{"id":3,"name":"Fried Calamari","price":"5.50","itemType":"food", "years":[2016,2017]},
-	{"id":4,"name":"Fried Pickles","price":"4.50","itemType":"food", "years":[2016,2017]},
-	{"id":5,"name":"Fries","price":"3.00","itemType":"food", "years":[2016,2017]},
-	{"id":6,"name":"Chili Dog","price":"2.50","itemType":"food", "years":[2016,2017]},
-	{"id":7,"name":"Kraut Dog","price":"2.00","itemType":"food", "years":[2016,2017]},
-	{"id":8,"name":"Moz Sticks","price":"4.00","itemType":"food", "years":[2016,2017]},
-	{"id":9,"name":"Onion Rings","price":"3.50","itemType":"food", "years":[2016,2017]},
-	{"id":10,"name":"Poppers","price":"4.00","itemType":"food", "years":[2016,2017]},
-	{"id":11,"name":"Wings","price":"9.00","itemType":"food", "years":[2016,2017]},
-	{"id":28,"name":"⭐Oysters (3)","price":"5.50","itemType":"food", "special":true, "years":[2017]},
-	{"id":20,"name":"Root Beer","price":"1.50","itemType":"na", "years":[2016,2017]},
-	{"id":21,"name":"Water","price":"1.50","itemType":"na", "years":[2016,2017]}
-]
-}
             </textarea>
             <br>
             <a id="btn_submit" class="btn btn-success" href="javascript:postit()">Submit</a>
@@ -78,6 +57,11 @@
         $.post("save.php", {json:data});
         alert("Saved");
       }
+      $(function() {
+          $.get( "load.php", function( data ) {
+               $('#txt_json').val(data);
+            });
+      });
     </script>
   </body>
 </html>

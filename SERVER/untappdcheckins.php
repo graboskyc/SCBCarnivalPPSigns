@@ -34,6 +34,11 @@ $checkins = $j->response->checkins->items;
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
 
         <title>SCB Carnival</title>
 
@@ -53,10 +58,10 @@ $checkins = $j->response->checkins->items;
                 color: #fff;
             }
             .txt { 
-                font-size:65px;
+                font-size:50px;
                 font-weight:bold;
                 text-align:center;
-                padding-bottom:12px;
+                padding-bottom:0px;
             }
             
             .txthead {
