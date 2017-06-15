@@ -44,11 +44,6 @@
             <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" IsHitTestVisible="false" TextWrapping="NoWrap" Style="{StaticResource HeaderTextBlockStyle}" VerticalAlignment="Center" FontFamily="Segoe UI Light" FontSize="72" Foreground="White"/>
         </Grid>
         <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" >
-            <Grid x:Name="visionVideoGrid" Background="#FF2D2D2D" Width="1280" Height="850" VerticalAlignment="Top" HorizontalAlignment="Left" Tapped="SlideshowGrid_Tapped">
-                <Image Source="Assets/DigitalSignage.png"/>
-                <TextBlock Canvas.Left="0" TextWrapping="Wrap" Text="&#xE768;" FontFamily="Segoe MDL2 Assets" FontSize="130" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
-                <TextBlock FontSize="26" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,20" Text="Play Slideshow" />
-            </Grid>
             <Grid Height="850" Width="420" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,0,0,0"  >
                 <Grid Width="420" Height="420" Background="#FF2D2D2D" VerticalAlignment="Top" HorizontalAlignment="Right" Tapped="BrowserGrid_Tapped">
                     <Image Source="Assets/Edge.png" Width="200" VerticalAlignment="Center" HorizontalAlignment="Center"/>
@@ -59,6 +54,12 @@
                     <TextBlock FontSize="28" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,20" Text="Settings" />
                 </Grid>
             </Grid>
+            <Grid x:Name="visionVideoGrid" Background="#FF2D2D2D" Width="1280" Height="850" VerticalAlignment="Top" HorizontalAlignment="Left" Tapped="SlideshowGrid_Tapped">
+                <Image Source="Assets/DigitalSignage.png"/>
+                <TextBlock Canvas.Left="0" TextWrapping="Wrap" Text="&#xE768;" FontFamily="Segoe MDL2 Assets" FontSize="130" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+                <TextBlock FontSize="26" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,20" Text="Play Slideshow" />
+            </Grid>
+            
         </StackPanel>
         <MediaElement x:Name="visionVideoInstance" />
     </Grid>

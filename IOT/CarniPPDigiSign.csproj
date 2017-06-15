@@ -144,6 +144,7 @@
     <Content Include="Assets\config.xml" />
     <Content Include="Assets\Edge.png" />
     <Content Include="Assets\Screens\cans.png" />
+    <Content Include="Assets\Screens\connect.png" />
     <Content Include="Assets\Screens\draft.png" />
     <Content Include="Assets\Screens\food.png" />
     <Content Include="Assets\Screens\logo.png" />
