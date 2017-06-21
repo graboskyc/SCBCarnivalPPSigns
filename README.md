@@ -1,3 +1,6 @@
+# NOTE
+This repo is being abandoned / retired in favor of my newer solution [located here](https://github.com/graboskyc/CarniDigiSign_IOT). This will continue to work, but I will not be improving it.
+
 # SCBCarnivalPPSigns Background
 From [Microsoft Win10 IOT Digital Signage example](https://github.com/ms-iot/samples/tree/develop/DigitalSign), implementation for concession at carnival
 
